@@ -15,21 +15,22 @@ body {
 	border: 0;
 	margin: 0;
 	font-family: sans-serif;
-	background-color: #00abe1;
+	background-color: #fff129;
 }
 
 .head {
 	margin: -1rem; 	/*para compensar el rem de padding */
 }
 
+nav {
+background-color: black;
+}
+
+
 .container {
 	display: flex;
 	align-items: center; /*centra de manera vertical*/
 	padding: 2rem 1rem 2rem;
-}
-
-a {
-	text-decoration: none; 	/*elimina la linea debajo de texto*/
 }
 
 .head_nav {
@@ -51,8 +52,10 @@ li {
 a {
 	margin-left: 1rem; /*da espacio izquierdo entre los botones */
 	text-decoration: none;
+	font-family: monospace;
+	font-size: 18px;
 	font-weight: 900;
-	color: #f5ef21;
+	color: white;
 	text-transform: uppercase;
 
 
